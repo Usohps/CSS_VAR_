@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://use.fontawesome.com/8ca17afc13.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <p>YourLogo</p>
+            </div>
+            <div class="nav">
+                <input type="checkbox" class="👌" name="" id="checkbox">
+                <label for="checkbox" class="form_check" id="checkbox"></label>
+
+                <ul class="navbar">
+                    <li class="navitem"><a href="#">Home</a></li>
+                    <li class="navitem"><a href="#">About</a></li>
+                    <li class="navitem"><a href="#">Features</a></li>
+                    <li class="navitem"><a href="#">Implementation</a></li>
+                    <li class="navitem"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <ul class="navbar_right">
+                <li class="item">
+                    <div class="search">
+                        <img src="image/search-solid.svg">
+                    </div>
+                </li>
+                <div class="sun">
+                    <img src="/image/icons8-sun.svg" id="change">
+                </div>
+            </ul>
+        </header>
+        <div class="container">
+            <div class="content">
+                <div class="left_content">
+                    <h1>Domain Registration</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorem dolore quas beatae
+                        voluptates
+                        minus
+                        harum odio voluptate dolores commodi. Dolore perspiciatis nihil placeat assumenda cupiditate
+                        ducimus
+                        quis, ut similique!</p>
+                </div>
+                <div class="image">
+                    <img src="./image/image.jpg" alt="demo_image">
+                </div>
+            </div>
+            <div class="btn">
+                <div class="botton btn1">
+                    <a href="#">More details</a>
+                </div>
+                <div class="botton btn2">
+                    <a href="#">View Demo</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="footer">All codes written and styled by Princewill Samuel Usoh</p>
+        </footer>
+    </div>
+    <script>
+        var toggle = document.getElementById("change");
+        toggle.onclick = function () {
+            document.body.classList.toggle("dark_theme");
+        }
+    </script>
+</body>
+
+</html>
